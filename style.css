@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.profile {
+  margin-top: 3rem;
+  padding: 0.9rem 2rem;
+  border-radius: 50%;
+  color: #fff;
+  background-color: black;
+  font-size: 3rem;
+}
+.name {
+  font-family: 'Baloo Paaji 2', cursive;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  word-spacing: 1px;
+  font-size: 1.8rem;
+  color: #16263F;;
+}
+
+.link_ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+a {
+  margin-top: 2rem;
+}
+a:first-child {
+  margin-top: 0.1rem;
+}
+a button {
+  font-family: 'Baloo Paaji 2', cursive;
+  width: 20rem;
+  height: 3.2rem;
+  font-size: 1.8rem;
+  word-spacing: 1px;
+  border-radius: 25px;
+  border: none;
+  background-color: #02075D;
+  color: #fff;
+  transition: all .8s ease;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+a button:hover {
+  color: #16263F;
+  background-color: #fff;
+}
+.btn {
+  margin-top: 1rem;
+  border: none;
+  width: 20%;
+  background-color: transparent;
+  position: absolute;
+}
+.btn img {
+  width: 60%;
+  height: 80%;
+}
+
+
+
+@media screen and (min-width: 700px) {
+  .profile {
+    margin-top: 5rem;
+    padding: 4rem 7rem;
+    font-size: 8rem;
+  }
+  .name {
+    font-size: 5rem;
+  }
+  a button {
+    margin-top: 4rem;
+    width: 50rem;
+    height: 8rem;
+    font-size: 4rem;
+    border-radius: 10rem;
+  }
+  .btn {
+    margin-top: 3rem;
+  }
+
+
+}
