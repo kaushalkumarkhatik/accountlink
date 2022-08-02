@@ -3,7 +3,7 @@ const btn = document.querySelector(".btn");
 const sharedta = {
   title: "techKK",
   text: "Projects Source Code Link...",
-  url: "https://linktr.ee/kaushalkumarkhatik"
+  url: "https://accountprofile.netlify.app/"
 }
 
 
